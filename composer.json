@@ -1,0 +1,8 @@
+{
+	"config": {
+        "vendor-dir": "application/vendor"
+    },
+	"require": {
+        "taq/torm": "1.3.1"
+    }
+}

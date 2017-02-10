@@ -1,0 +1,109 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "43ab52ab25c1ddb36239535e6f263300",
+    "content-hash": "3975f8ff18a93edb4557b8d80e1ef1be",
+    "packages": [
+        {
+            "name": "taq/pdooci",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/taq/pdooci.git",
+                "reference": "898a8fcef39b7cf748454c06e98c45baecffca94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/taq/pdooci/zipball/898a8fcef39b7cf748454c06e98c45baecffca94",
+                "reference": "898a8fcef39b7cf748454c06e98c45baecffca94",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PDOOCI\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Eustaquio Rangel",
+                    "email": "eustaquiorangel@gmail.com",
+                    "homepage": "http://eustaquiorangel.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Replacement for the PHP PDO OCI class",
+            "homepage": "http://github.com/taq/pdooci",
+            "keywords": [
+                "oci",
+                "oracle",
+                "pdo",
+                "pdo_oci"
+            ],
+            "time": "2016-09-24 21:51:27"
+        },
+        {
+            "name": "taq/torm",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/taq/torm.git",
+                "reference": "fa56d87eb4c75d0f7e3f5f6f0fa2bd64ebd3cde7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/taq/torm/zipball/fa56d87eb4c75d0f7e3f5f6f0fa2bd64ebd3cde7",
+                "reference": "fa56d87eb4c75d0f7e3f5f6f0fa2bd64ebd3cde7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "taq/pdooci": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TORM\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Eustaquio Rangel",
+                    "email": "eustaquiorangel@gmail.com",
+                    "homepage": "http://eustaquiorangel.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An ORM based on ActiveRecord",
+            "homepage": "http://github.com/taq/torm",
+            "keywords": [
+                "activerecord",
+                "database",
+                "orm"
+            ],
+            "time": "2017-02-03 19:08:49"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
